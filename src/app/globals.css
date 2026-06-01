@@ -1,0 +1,71 @@
+@import '../styles/variables.css';
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--ink-primary);
+  background-color: var(--bg-void);
+  /* Deep atmospheric gradient to make transparency visible */
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(70, 40, 60, 0.15), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(40, 60, 80, 0.15), transparent 40%);
+  font-family: var(--font-sans);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  /* Lock the body */
+  position: fixed;
+  /* Prevent mobile scroll bounce on body */
+  width: 100%;
+}
+
+/* Texture Overlay - Aggressive Visibility */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--noise-pattern);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.15;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-void);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ink-faint);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-secondary);
+}
