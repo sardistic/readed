@@ -8759,7 +8759,7 @@
       "title": "Surface Detail (Culture, #9)",
       "author": "Iain M. Banks",
       "type": "book",
-      "status": "read",
+      "status": "reading",
       "rating": 0,
       "dateAdded": "2026-06-11",
       "pageCount": 0,
@@ -8790,7 +8790,7 @@
       "title": "Matter (Culture, #8)",
       "author": "Iain M. Banks",
       "type": "book",
-      "status": "reading",
+      "status": "read",
       "rating": 0,
       "dateAdded": "2026-06-26",
       "pageCount": 0,
@@ -8798,7 +8798,8 @@
       "description": "",
       "genres": [],
       "platform": "goodreads",
-      "notes": ""
+      "notes": "",
+      "dateRead": "2026-07-08"
     },
     {
       "id": "63758521",
