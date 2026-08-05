@@ -8868,7 +8868,7 @@
       "title": "Woodcutters",
       "author": "Thomas Bernhard",
       "type": "book",
-      "status": "reading",
+      "status": "read",
       "rating": 0,
       "dateAdded": "2026-08-04",
       "pageCount": 0,
@@ -8876,7 +8876,8 @@
       "description": "",
       "genres": [],
       "platform": "goodreads",
-      "notes": ""
+      "notes": "",
+      "dateRead": "2026-08-04"
     }
   ]
 }
