@@ -8973,6 +8973,37 @@
       "platform": "goodreads",
       "notes": "",
       "dateRead": "2026-10-12"
+    },
+    {
+      "id": "383172591",
+      "title": "The Eye of the World",
+      "author": "Robert Jordan",
+      "type": "book",
+      "status": "read",
+      "rating": 0,
+      "dateAdded": "2026-10-27",
+      "pageCount": 0,
+      "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659905815l/228665._SY475_.jpg",
+      "description": "",
+      "genres": [],
+      "platform": "goodreads",
+      "notes": "",
+      "dateRead": "2021-07-23"
+    },
+    {
+      "id": "850627312",
+      "title": "American Gods",
+      "author": "Neil Gaiman",
+      "type": "book",
+      "status": "read",
+      "rating": 0,
+      "dateAdded": "2026-10-27",
+      "pageCount": 0,
+      "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203.jpg",
+      "description": "",
+      "genres": [],
+      "platform": "goodreads",
+      "notes": ""
     }
   ]
 }
